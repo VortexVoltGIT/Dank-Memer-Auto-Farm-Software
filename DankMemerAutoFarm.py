@@ -1,5 +1,10 @@
 ########## Imports ##########
 
+#Forked by VortexVolt, being constantly updated and edited.
+
+
+
+
 import pickle # Save data
 import time
 from time import sleep # Imports the sleep command
@@ -281,7 +286,7 @@ MainPageFrame = Frame(window, bg=gray25,highlightthickness=0) # Frame for everyt
 MainPageFrame.pack(expand=1, fill=BOTH)
 
 MainPageTitleText = "Dank Memer Auto Farm" # Page title text
-MainPageSubTitleText = "Customize your settings then click run to begin the automation" # Page sub title text
+MainPageSubTitleText = "Customize your settings and Run | Forked by VortexVolt#0014" # Page sub title text
 
 MainPageTitleLabel = Label(MainPageFrame, text=MainPageTitleText, font=("Arial", 25), bg=gray25, fg="white", wraplength=rootWidth - 25, justify="center") # Page title
 MainPageTitleLabel.pack()
@@ -348,7 +353,7 @@ settingsLabels = [] # Holds settings labels
 settingsButtonsText = [ # Text for the settings buttons
     "Commands",
     "Powerups",
-    "Positions",
+    "Positions"
 ]
 settingsLabelsText = [ # Text for the settings labels
     "Select which currency commands you want to run",
